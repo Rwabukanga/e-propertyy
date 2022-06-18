@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ProductManager-2.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="ebaza-framework-persistance-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ebaza-framework-persistance/ebaza-framework-persistance">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ebaza-common-framework-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ebaza-common-framework/ebaza-common-framework">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ebaza-framework-usermessage-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ebaza-framework-usermessage/ebaza-framework-usermessage">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ebaza-framework-file-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ebaza-framework-file/ebaza-framework-file">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ProductManager"/>
+        <property name="java-output-path" value="/e-property/target/classes"/>
+    </wb-module>
+</project-modules>
